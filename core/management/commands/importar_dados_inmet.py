@@ -57,36 +57,46 @@ class Command(BaseCommand):
         self.stdout.write(self.style.HTTP_INFO(f'Iniciando busca de dados diários para {estacoes.count()} estações...'))
 
         # ...
+        # ...
         for estacao in estacoes:
             for ano in anos:
                 if ano >= estacao.data_inicio_operacao.year:
+                    # ===== NOVA LÓGICA: DIVIDIR O ANO EM DOIS SEMESTRES =====
+                    periodos = [
+                        (f"{ano}-01-01", f"{ano}-06-30"), # Primeiro semestre
+                        (f"{ano}-07-01", f"{ano}-12-31")  # Segundo semestre
+                    ]
+
                     self.stdout.write(f'  - Buscando dados para estação {estacao.codigo} no ano {ano}...')
-                    data_inicio = f"{ano}-01-01"
-                    data_fim = f"{ano}-12-31"
 
-                    dados_diarios = None # Garante que a variável existe
-                    try:
-                        endpoint = f"/estacao/diario/{data_inicio}/{data_fim}/{estacao.codigo}"
-                        response = requests.get(f"{self.BASE_URL}{endpoint}")
-                        response.raise_for_status() # Isso vai direto para o except em caso de 404
-                        dados_diarios = response.json()
-                    except requests.exceptions.RequestException as e:
-                        # Este erro agora só acontece se a API falhar (404, 500, etc)
-                        self.stdout.write(self.style.WARNING(f'    Aviso: Sem dados para {estacao.codigo} em {ano}. (API retornou: {e})'))
-                        continue # Pula para o próximo ano
+                    for data_inicio, data_fim in periodos:
+                        dados_diarios = None
+                        try:
+                            endpoint = f"/estacao/{data_inicio}/{data_fim}/{estacao.codigo}"
+                            response = requests.get(f"{self.BASE_URL}{endpoint}", timeout=30.0) # Adiciona um timeout
+                            response.raise_for_status()
+                            dados_diarios = response.json()
 
-                    # Se a busca foi bem sucedida, processa os dados
-                    try:
-                        for dado in dados_diarios:
-                            DadoMeteorologicoDiario.objects.update_or_create(
-                                estacao=estacao,
-                                data=datetime.strptime(dado['DT_MEDICAO'], '%Y-%m-%d').date(),
-                                defaults={
-                                    'precipitacao_mm': float(dado['PRE_MAX']) if dado.get('PRE_MAX') else None,
-                                    'temp_maxima_c': float(dado['TEM_MAX']) if dado.get('TEM_MAX') else None,
-                                    'temp_minima_c': float(dado['TEM_MIN']) if dado.get('TEM_MIN') else None,
-                                    'umidade_media_porc': float(dado['UMD_MED']) if dado.get('UMD_MED') else None,
-                                }
-                            )
-                    except Exception as e:
-                        self.stdout.write(self.style.ERROR(f'    Erro ao SALVAR dados para {estacao.codigo} em {ano}: {e}'))
+                            if not dados_diarios:
+                                self.stdout.write(self.style.WARNING(f'    Aviso: Período {data_inicio} a {data_fim} retornou vazio (sem erro).'))
+                                continue
+
+                        except requests.exceptions.RequestException as e:
+                            self.stdout.write(self.style.WARNING(f'    Aviso: Sem dados para {estacao.codigo} no período {data_inicio}-{data_fim}. (API retornou: {e})'))
+                            continue 
+
+                        # ... o resto do código para salvar os dados continua o mesmo ...
+                        try:
+                            for dado in dados_diarios:
+                                DadoMeteorologicoDiario.objects.update_or_create(
+                                    estacao=estacao,
+                                    data=datetime.strptime(dado['DT_MEDICAO'], '%Y-%m-%d').date(),
+                                    defaults={
+                                        'precipitacao_mm': float(dado['PRE_MAX']) if dado.get('PRE_MAX') else None,
+                                        'temp_maxima_c': float(dado['TEM_MAX']) if dado.get('TEM_MAX') else None,
+                                        'temp_minima_c': float(dado['TEM_MIN']) if dado.get('TEM_MIN') else None,
+                                        'umidade_media_porc': float(dado['UMD_MED']) if dado.get('UMD_MED') else None,
+                                    }
+                                )
+                        except Exception as e:
+                            self.stdout.write(self.style.ERROR(f'    ERRO ao SALVAR dados para {estacao.codigo} em {ano}: {e}'))

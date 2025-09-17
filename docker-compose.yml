@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:16
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=datum_safra_db
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:6.2-alpine
+
+  app:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_HOST=db
+      - DB_NAME=datum_safra_db
+      - DB_USER=user
+      - DB_PASS=password
+    depends_on:
+      - db
+      - redis
+
+  celery_worker:
+    build: .
+    command: celery -A datum_safra worker -l INFO
+    volumes:
+      - .:/app
+    depends_on:
+      - app
+
+  celery_beat:
+    build: .
+    command: celery -A datum_safra beat -l INFO
+    volumes:
+      - .:/app
+    depends_on:
+      - app
+
+volumes:
+  postgres_data:

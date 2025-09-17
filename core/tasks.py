@@ -122,7 +122,7 @@ def importar_dados_inmet_task():
                 
                 dados_diarios = None
                 try:
-                    endpoint = f"/estacao/diario/{data_inicio}/{data_fim}/{estacao.codigo}"
+                    endpoint = f"/estacao/{data_inicio}/{data_fim}/{estacao.codigo}"
                     response = requests.get(f"{BASE_URL}{endpoint}")
                     response.raise_for_status()
                     dados_diarios = response.json()

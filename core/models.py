@@ -41,92 +41,55 @@ class SafraAnual(models.Model):
     
 
 
-class EstacaoMeteorologica(models.Model):
+class Localidade(models.Model):
     """
-    Representa uma estação meteorológica do INMET.
+    Representa uma localidade (município) com coordenadas geográficas.
     """
-
-    codigo = models.CharField(
-        max_length=10,
-        primary_key=True,
-        verbose_name="Código da Estação",
-        help_text="Código único da estação meteorológica."
-    )
-
-    nome=models.CharField(
+    nome = models.CharField(
         max_length=255,
-        verbose_name="Nome da Estação",        
+        unique=True,
+        verbose_name="Nome da Localidade"
     )
-
     latitude = models.FloatField()
     longitude = models.FloatField()
-    altitude = models.FloatField()
-    data_inicio_operacao = models.DateField(
-        verbose_name="Início da Operação",
-        help_text="Data de início da operação da estação meteorológica."
-    )
-
-    uf = models.CharField(
-        max_length=2,
-        verbose_name="Estado (UF)",
-        help_text="Sigla da Unidade Federativa (UF)."
-
-    )
 
     class Meta:
-        verbose_name = "Estação Meteorológica"
-        verbose_name_plural = "Estações Meteorológicas"
+        verbose_name = "Localidade"
+        verbose_name_plural = "Localidades"
 
     def __str__(self):
-        return f"{self.nome} ({self.codigo})"
-    
+        return self.nome
+
+
 class DadoMeteorologicoDiario(models.Model):
     """
-    Armazena os dados meteorológicos consolidados para um dia
-    em uma determinada estação.
+    Armazena os dados meteorológicos da NASA para um dia em uma localidade.
     """
-
-    estacao = models.ForeignKey(
-        EstacaoMeteorologica ,
+    localidade = models.ForeignKey(
+        Localidade,
         on_delete=models.CASCADE,
-        verbose_name="Estação Meteorológica",
-        help_text="A estação à qual este dado pertence."
+        verbose_name="Localidade",
     )
-
     data = models.DateField(
         verbose_name="Data da Medição"
     )
-
     precipitacao_mm = models.FloatField(
-        verbose_name="Precipitação (mm)",
+        verbose_name="Precipitação Corrigida (mm/dia)",
         null=True, blank=True
     )
-
     temp_maxima_c = models.FloatField(
-        verbose_name="Temperatura Máxima (°C)",
+        verbose_name="Temperatura Máxima a 2m (°C)",
         null=True, blank=True
     )
-
-    emp_minima_c = models.FloatField(
-        verbose_name="Temperatura Mínima (°C)",
-        null=True, blank=True
-    )
-
-    umidade_media_porc = models.FloatField(
-        verbose_name="Umidade Média (%)",
+    temp_minima_c = models.FloatField(
+        verbose_name="Temperatura Mínima a 2m (°C)",
         null=True, blank=True
     )
 
     class Meta:
         verbose_name = "Dado Meteorológico Diário"
         verbose_name_plural = "Dados Meteorológicos Diários"
-        # Garante que só teremos um registro por dia por estação.
-        unique_together = ('estacao', 'data')
+        unique_together = ('localidade', 'data')
+
     def __str__(self):
-        return f"Dados de {self.estacao.codigo} para {self.data.strftime('%Y-%m-%d')}"
-
-
-
-                        
-
-
+        return f"Dados de {self.localidade.nome} para {self.data.strftime('%Y-%m-%d')}"
