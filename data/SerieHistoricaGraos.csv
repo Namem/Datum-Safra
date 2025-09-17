@@ -761,23 +761,23 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;AL;ALGODAO EM PLUMA                        ;4586;0;0;0
 2024/25             ;UNICA          ;AM;ALGODAO EM PLUMA                        ;4586;0;0;0
 2024/25             ;UNICA          ;AP;ALGODAO EM PLUMA                        ;4586;0;0;0
-2024/25             ;UNICA          ;BA;ALGODAO EM PLUMA                        ;4586;413.1;823.6;2
-2024/25             ;UNICA          ;CE;ALGODAO EM PLUMA                        ;4586;2.3;2;0.9
+2024/25             ;UNICA          ;BA;ALGODAO EM PLUMA                        ;4586;413.1;804.7;1.9
+2024/25             ;UNICA          ;CE;ALGODAO EM PLUMA                        ;4586;2.9;2.3;0.8
 2024/25             ;UNICA          ;DF;ALGODAO EM PLUMA                        ;4586;0;0;0
 2024/25             ;UNICA          ;ES;ALGODAO EM PLUMA                        ;4586;0;0;0
-2024/25             ;UNICA          ;GO;ALGODAO EM PLUMA                        ;4586;29.8;53.7;1.8
-2024/25             ;UNICA          ;MA;ALGODAO EM PLUMA                        ;4586;33;56.2;1.7
-2024/25             ;UNICA          ;MG;ALGODAO EM PLUMA                        ;4586;45.1;79.1;1.8
-2024/25             ;UNICA          ;MS;ALGODAO EM PLUMA                        ;4586;31.7;67.5;2.1
-2024/25             ;UNICA          ;MT;ALGODAO EM PLUMA                        ;4586;1462;2744.8;1.9
+2024/25             ;UNICA          ;GO;ALGODAO EM PLUMA                        ;4586;30.3;55.2;1.8
+2024/25             ;UNICA          ;MA;ALGODAO EM PLUMA                        ;4586;33;58.7;1.8
+2024/25             ;UNICA          ;MG;ALGODAO EM PLUMA                        ;4586;45.1;77.7;1.7
+2024/25             ;UNICA          ;MS;ALGODAO EM PLUMA                        ;4586;31.7;69.8;2.2
+2024/25             ;UNICA          ;MT;ALGODAO EM PLUMA                        ;4586;1462;2872.9;2
 2024/25             ;UNICA          ;PA;ALGODAO EM PLUMA                        ;4586;0.2;0.3;1.5
 2024/25             ;UNICA          ;PB;ALGODAO EM PLUMA                        ;4586;0.5;0.1;0.2
 2024/25             ;UNICA          ;PE;ALGODAO EM PLUMA                        ;4586;0;0;0
-2024/25             ;UNICA          ;PI;ALGODAO EM PLUMA                        ;4586;32.5;55.8;1.7
+2024/25             ;UNICA          ;PI;ALGODAO EM PLUMA                        ;4586;33.7;63.3;1.9
 2024/25             ;UNICA          ;PR;ALGODAO EM PLUMA                        ;4586;1.6;2;1.2
 2024/25             ;UNICA          ;RJ;ALGODAO EM PLUMA                        ;4586;0;0;0
 2024/25             ;UNICA          ;RN;ALGODAO EM PLUMA                        ;4586;1.2;0.8;0.7
-2024/25             ;UNICA          ;RO;ALGODAO EM PLUMA                        ;4586;8.8;14;1.6
+2024/25             ;UNICA          ;RO;ALGODAO EM PLUMA                        ;4586;8.8;15;1.7
 2024/25             ;UNICA          ;RR;ALGODAO EM PLUMA                        ;4586;0;0;0
 2024/25             ;UNICA          ;RS;ALGODAO EM PLUMA                        ;4586;0;0;0
 2024/25             ;UNICA          ;SC;ALGODAO EM PLUMA                        ;4586;0;0;0
@@ -1611,14 +1611,14 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;2ª SAFRA       ;MA;AMENDOIM                                ;4674;0;0;0
 2024/25             ;1ª SAFRA       ;MG;AMENDOIM                                ;4674;14.5;52;3.6
 2024/25             ;2ª SAFRA       ;MG;AMENDOIM                                ;4674;0;0;0
-2024/25             ;1ª SAFRA       ;MS;AMENDOIM                                ;4674;42.7;170.4;4
+2024/25             ;1ª SAFRA       ;MS;AMENDOIM                                ;4674;43.5;173.7;4
 2024/25             ;2ª SAFRA       ;MS;AMENDOIM                                ;4674;0;0;0
 2024/25             ;1ª SAFRA       ;MT;AMENDOIM                                ;4674;0;0;0
 2024/25             ;2ª SAFRA       ;MT;AMENDOIM                                ;4674;0;0;0
 2024/25             ;1ª SAFRA       ;PA;AMENDOIM                                ;4674;0;0;0
 2024/25             ;2ª SAFRA       ;PA;AMENDOIM                                ;4674;0;0;0
 2024/25             ;1ª SAFRA       ;PB;AMENDOIM                                ;4674;0;0;0
-2024/25             ;2ª SAFRA       ;PB;AMENDOIM                                ;4674;0.7;0.4;0.6
+2024/25             ;2ª SAFRA       ;PB;AMENDOIM                                ;4674;0.7;0.5;0.7
 2024/25             ;1ª SAFRA       ;PE;AMENDOIM                                ;4674;0;0;0
 2024/25             ;2ª SAFRA       ;PE;AMENDOIM                                ;4674;0;0;0
 2024/25             ;1ª SAFRA       ;PI;AMENDOIM                                ;4674;0;0;0
@@ -2917,28 +2917,28 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;AM;ARROZ                                   ;4684;4.6;15;3.3
 2024/25             ;UNICA          ;AP;ARROZ                                   ;4684;0.9;0.9;1
 2024/25             ;UNICA          ;BA;ARROZ                                   ;4684;0;0;0
-2024/25             ;UNICA          ;CE;ARROZ                                   ;4684;3.9;11.2;2.9
+2024/25             ;UNICA          ;CE;ARROZ                                   ;4684;4.5;10.1;2.2
 2024/25             ;UNICA          ;DF;ARROZ                                   ;4684;0.4;2.5;6.2
 2024/25             ;UNICA          ;ES;ARROZ                                   ;4684;0.1;0.4;4
 2024/25             ;UNICA          ;GO;ARROZ                                   ;4684;29;155.2;5.4
-2024/25             ;UNICA          ;MA;ARROZ                                   ;4684;93.4;279.4;3
+2024/25             ;UNICA          ;MA;ARROZ                                   ;4684;93.4;279.5;3
 2024/25             ;UNICA          ;MG;ARROZ                                   ;4684;22.2;87.3;3.9
 2024/25             ;UNICA          ;MS;ARROZ                                   ;4684;13.7;94.4;6.9
 2024/25             ;UNICA          ;MT;ARROZ                                   ;4684;146.7;537.1;3.7
 2024/25             ;UNICA          ;PA;ARROZ                                   ;4684;39.5;111.2;2.8
-2024/25             ;UNICA          ;PB;ARROZ                                   ;4684;2.7;4.7;1.7
-2024/25             ;UNICA          ;PE;ARROZ                                   ;4684;0.2;1.5;7.5
+2024/25             ;UNICA          ;PB;ARROZ                                   ;4684;2.7;3.5;1.3
+2024/25             ;UNICA          ;PE;ARROZ                                   ;4684;0;0;0
 2024/25             ;UNICA          ;PI;ARROZ                                   ;4684;56.5;99.3;1.8
 2024/25             ;UNICA          ;PR;ARROZ                                   ;4684;19.7;136.5;6.9
-2024/25             ;UNICA          ;RJ;ARROZ                                   ;4684;0.3;0.9;3
-2024/25             ;UNICA          ;RN;ARROZ                                   ;4684;0.4;1.2;3
+2024/25             ;UNICA          ;RJ;ARROZ                                   ;4684;0.3;0.8;2.7
+2024/25             ;UNICA          ;RN;ARROZ                                   ;4684;0.4;1.1;2.8
 2024/25             ;UNICA          ;RO;ARROZ                                   ;4684;44;162.4;3.7
 2024/25             ;UNICA          ;RR;ARROZ                                   ;4684;13.3;100.1;7.5
-2024/25             ;UNICA          ;RS;ARROZ                                   ;4684;951.9;8295.8;8.7
+2024/25             ;UNICA          ;RS;ARROZ                                   ;4684;968.1;8733.2;9
 2024/25             ;UNICA          ;SC;ARROZ                                   ;4684;150;1275;8.5
 2024/25             ;UNICA          ;SE;ARROZ                                   ;4684;6.2;50.4;8.1
 2024/25             ;UNICA          ;SP;ARROZ                                   ;4684;7.9;55.1;7
-2024/25             ;UNICA          ;TO;ARROZ                                   ;4684;133.5;822.3;6.2
+2024/25             ;UNICA          ;TO;ARROZ                                   ;4684;133.5;822.5;6.2
 1976                ;UNICA          ;PR;AVEIA                                   ;4699;7;10;1.4
 1976                ;UNICA          ;RS;AVEIA                                   ;4699;30;25;0.8
 1976                ;UNICA          ;SC;AVEIA                                   ;4699;3;2;0.7
@@ -3213,18 +3213,18 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024                ;UNICA          ;GO;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;MA;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;MG;AVEIA                                   ;4699;0;0;0
-2024                ;UNICA          ;MS;AVEIA                                   ;4699;40.9;45.6;1.1
+2024                ;UNICA          ;MS;AVEIA                                   ;4699;40.4;70.6;1.7
 2024                ;UNICA          ;MT;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;PA;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;PB;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;PE;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;PI;AVEIA                                   ;4699;0;0;0
-2024                ;UNICA          ;PR;AVEIA                                   ;4699;101.3;203.1;2
+2024                ;UNICA          ;PR;AVEIA                                   ;4699;101.9;204.3;2
 2024                ;UNICA          ;RJ;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;RN;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;RO;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;RR;AVEIA                                   ;4699;0;0;0
-2024                ;UNICA          ;RS;AVEIA                                   ;4699;370.7;916;2.5
+2024                ;UNICA          ;RS;AVEIA                                   ;4699;384.6;950.3;2.5
 2024                ;UNICA          ;SC;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;SE;AVEIA                                   ;4699;0;0;0
 2024                ;UNICA          ;SP;AVEIA                                   ;4699;0;0;0
@@ -3408,12 +3408,12 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024                ;UNICA          ;PB;CANOLA                                  ;4723;0;0;0
 2024                ;UNICA          ;PE;CANOLA                                  ;4723;0;0;0
 2024                ;UNICA          ;PI;CANOLA                                  ;4723;0;0;0
-2024                ;UNICA          ;PR;CANOLA                                  ;4723;2.3;3.2;1.4
+2024                ;UNICA          ;PR;CANOLA                                  ;4723;1.9;2.7;1.4
 2024                ;UNICA          ;RJ;CANOLA                                  ;4723;0;0;0
 2024                ;UNICA          ;RN;CANOLA                                  ;4723;0;0;0
 2024                ;UNICA          ;RO;CANOLA                                  ;4723;0;0;0
 2024                ;UNICA          ;RR;CANOLA                                  ;4723;0;0;0
-2024                ;UNICA          ;RS;CANOLA                                  ;4723;200;292;1.5
+2024                ;UNICA          ;RS;CANOLA                                  ;4723;209.9;306.5;1.5
 2024                ;UNICA          ;SC;CANOLA                                  ;4723;0;0;0
 2024                ;UNICA          ;SE;CANOLA                                  ;4723;0;0;0
 2024                ;UNICA          ;SP;CANOLA                                  ;4723;0;0;0
@@ -4064,10 +4064,10 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2017/18             ;UNICA          ;PI;CAROCO DE ALGODAO                       ;4724;7.2;15.8;2.2
 2017/18             ;UNICA          ;RN;CAROCO DE ALGODAO                       ;4724;0.3;0.8;2.7
 2017/18             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;0;12.5;0
-2017/18             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;0;12.5;0
+2017/18             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;4.8;12.5;2.6
 2017/18             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;0;12.5;0
 2017/18             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;6;17.2;2.9
-2017/18             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;4.8;12.5;2.6
+2017/18             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;0;12.5;0
 2017/18             ;UNICA          ;SP;CAROCO DE ALGODAO                       ;4724;5.7;13.3;2.3
 2017/18             ;UNICA          ;TO;CAROCO DE ALGODAO                       ;4724;2.8;6.3;2.2
 2018/19             ;UNICA          ;BA;CAROCO DE ALGODAO                       ;4724;332;896.4;2.7
@@ -4191,23 +4191,23 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;AL;CAROCO DE ALGODAO                       ;4724;0;0;0
 2024/25             ;UNICA          ;AM;CAROCO DE ALGODAO                       ;4724;0;0;0
 2024/25             ;UNICA          ;AP;CAROCO DE ALGODAO                       ;4724;0;0;0
-2024/25             ;UNICA          ;BA;CAROCO DE ALGODAO                       ;4724;413.1;1137.4;2.8
-2024/25             ;UNICA          ;CE;CAROCO DE ALGODAO                       ;4724;2.3;3.8;1.7
+2024/25             ;UNICA          ;BA;CAROCO DE ALGODAO                       ;4724;413.1;1111.3;2.7
+2024/25             ;UNICA          ;CE;CAROCO DE ALGODAO                       ;4724;2.9;4.3;1.5
 2024/25             ;UNICA          ;DF;CAROCO DE ALGODAO                       ;4724;0;0;0
 2024/25             ;UNICA          ;ES;CAROCO DE ALGODAO                       ;4724;0;0;0
-2024/25             ;UNICA          ;GO;CAROCO DE ALGODAO                       ;4724;29.8;80.6;2.7
-2024/25             ;UNICA          ;MA;CAROCO DE ALGODAO                       ;4724;33;82.5;2.5
-2024/25             ;UNICA          ;MG;CAROCO DE ALGODAO                       ;4724;45.1;113.8;2.5
-2024/25             ;UNICA          ;MS;CAROCO DE ALGODAO                       ;4724;31.7;95.5;3
-2024/25             ;UNICA          ;MT;CAROCO DE ALGODAO                       ;4724;1462;3869.3;2.6
+2024/25             ;UNICA          ;GO;CAROCO DE ALGODAO                       ;4724;30.3;82.9;2.7
+2024/25             ;UNICA          ;MA;CAROCO DE ALGODAO                       ;4724;33;86.3;2.6
+2024/25             ;UNICA          ;MG;CAROCO DE ALGODAO                       ;4724;45.1;111.7;2.5
+2024/25             ;UNICA          ;MS;CAROCO DE ALGODAO                       ;4724;31.7;98.8;3.1
+2024/25             ;UNICA          ;MT;CAROCO DE ALGODAO                       ;4724;1462;4049.7;2.8
 2024/25             ;UNICA          ;PA;CAROCO DE ALGODAO                       ;4724;0.2;0.4;2
 2024/25             ;UNICA          ;PB;CAROCO DE ALGODAO                       ;4724;0.5;0.2;0.4
 2024/25             ;UNICA          ;PE;CAROCO DE ALGODAO                       ;4724;0;0;0
-2024/25             ;UNICA          ;PI;CAROCO DE ALGODAO                       ;4724;32.5;80.3;2.5
+2024/25             ;UNICA          ;PI;CAROCO DE ALGODAO                       ;4724;33.7;91.1;2.7
 2024/25             ;UNICA          ;PR;CAROCO DE ALGODAO                       ;4724;1.6;2.8;1.8
 2024/25             ;UNICA          ;RJ;CAROCO DE ALGODAO                       ;4724;0;0;0
 2024/25             ;UNICA          ;RN;CAROCO DE ALGODAO                       ;4724;1.2;1.4;1.2
-2024/25             ;UNICA          ;RO;CAROCO DE ALGODAO                       ;4724;8.8;22.9;2.6
+2024/25             ;UNICA          ;RO;CAROCO DE ALGODAO                       ;4724;8.8;24.6;2.8
 2024/25             ;UNICA          ;RR;CAROCO DE ALGODAO                       ;4724;0;0;0
 2024/25             ;UNICA          ;RS;CAROCO DE ALGODAO                       ;4724;0;0;0
 2024/25             ;UNICA          ;SC;CAROCO DE ALGODAO                       ;4724;0;0;0
@@ -4769,12 +4769,12 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024                ;UNICA          ;PB;CEVADA                                  ;6184;0;0;0
 2024                ;UNICA          ;PE;CEVADA                                  ;6184;0;0;0
 2024                ;UNICA          ;PI;CEVADA                                  ;6184;0;0;0
-2024                ;UNICA          ;PR;CEVADA                                  ;6184;96.7;396.2;4.1
+2024                ;UNICA          ;PR;CEVADA                                  ;6184;98.9;405.2;4.1
 2024                ;UNICA          ;RJ;CEVADA                                  ;6184;0;0;0
 2024                ;UNICA          ;RN;CEVADA                                  ;6184;0;0;0
 2024                ;UNICA          ;RO;CEVADA                                  ;6184;0;0;0
 2024                ;UNICA          ;RR;CEVADA                                  ;6184;0;0;0
-2024                ;UNICA          ;RS;CEVADA                                  ;6184;31.7;102.4;3.2
+2024                ;UNICA          ;RS;CEVADA                                  ;6184;30.4;98.2;3.2
 2024                ;UNICA          ;SC;CEVADA                                  ;6184;0;0;0
 2024                ;UNICA          ;SE;CEVADA                                  ;6184;0;0;0
 2024                ;UNICA          ;SP;CEVADA                                  ;6184;4.1;13.1;3.2
@@ -7217,7 +7217,7 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;3ª SAFRA       ;AC;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;AL;FEIJAO                                  ;8380;0;0;0
 2024/25             ;2ª SAFRA       ;AL;FEIJAO                                  ;8380;0;0;0
-2024/25             ;3ª SAFRA       ;AL;FEIJAO                                  ;8380;21.3;15;0.7
+2024/25             ;3ª SAFRA       ;AL;FEIJAO                                  ;8380;20.6;12.7;0.6
 2024/25             ;1ª SAFRA       ;AM;FEIJAO                                  ;8380;2.2;1.6;0.7
 2024/25             ;2ª SAFRA       ;AM;FEIJAO                                  ;8380;0;0;0
 2024/25             ;3ª SAFRA       ;AM;FEIJAO                                  ;8380;0;0;0
@@ -7225,52 +7225,52 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;2ª SAFRA       ;AP;FEIJAO                                  ;8380;1.1;1;0.9
 2024/25             ;3ª SAFRA       ;AP;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;BA;FEIJAO                                  ;8380;215.9;83;0.4
-2024/25             ;2ª SAFRA       ;BA;FEIJAO                                  ;8380;95;154.1;1.6
-2024/25             ;3ª SAFRA       ;BA;FEIJAO                                  ;8380;122.9;87.9;0.7
+2024/25             ;2ª SAFRA       ;BA;FEIJAO                                  ;8380;95;162.5;1.7
+2024/25             ;3ª SAFRA       ;BA;FEIJAO                                  ;8380;66.4;43.8;0.7
 2024/25             ;1ª SAFRA       ;CE;FEIJAO                                  ;8380;0;0;0
-2024/25             ;2ª SAFRA       ;CE;FEIJAO                                  ;8380;341.3;105;0.3
+2024/25             ;2ª SAFRA       ;CE;FEIJAO                                  ;8380;340.2;67.3;0.2
 2024/25             ;3ª SAFRA       ;CE;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;DF;FEIJAO                                  ;8380;11;27.1;2.5
 2024/25             ;2ª SAFRA       ;DF;FEIJAO                                  ;8380;0;0;0
 2024/25             ;3ª SAFRA       ;DF;FEIJAO                                  ;8380;3.9;11.9;3.1
 2024/25             ;1ª SAFRA       ;ES;FEIJAO                                  ;8380;4.6;5.5;1.2
-2024/25             ;2ª SAFRA       ;ES;FEIJAO                                  ;8380;4.4;4.1;0.9
+2024/25             ;2ª SAFRA       ;ES;FEIJAO                                  ;8380;3.9;3.5;0.9
 2024/25             ;3ª SAFRA       ;ES;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;GO;FEIJAO                                  ;8380;43;100.6;2.3
-2024/25             ;2ª SAFRA       ;GO;FEIJAO                                  ;8380;16.2;22.4;1.4
-2024/25             ;3ª SAFRA       ;GO;FEIJAO                                  ;8380;60;180;3
+2024/25             ;2ª SAFRA       ;GO;FEIJAO                                  ;8380;16.2;22.5;1.4
+2024/25             ;3ª SAFRA       ;GO;FEIJAO                                  ;8380;60;166.9;2.8
 2024/25             ;1ª SAFRA       ;MA;FEIJAO                                  ;8380;16.3;9.7;0.6
 2024/25             ;2ª SAFRA       ;MA;FEIJAO                                  ;8380;31.1;22.1;0.7
 2024/25             ;3ª SAFRA       ;MA;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;MG;FEIJAO                                  ;8380;128.4;205.2;1.6
-2024/25             ;2ª SAFRA       ;MG;FEIJAO                                  ;8380;100.4;146.5;1.5
-2024/25             ;3ª SAFRA       ;MG;FEIJAO                                  ;8380;56.8;117.5;2.1
+2024/25             ;2ª SAFRA       ;MG;FEIJAO                                  ;8380;101.2;148.3;1.5
+2024/25             ;3ª SAFRA       ;MG;FEIJAO                                  ;8380;57.1;109.3;1.9
 2024/25             ;1ª SAFRA       ;MS;FEIJAO                                  ;8380;0;0;0
-2024/25             ;2ª SAFRA       ;MS;FEIJAO                                  ;8380;5.7;9.5;1.7
+2024/25             ;2ª SAFRA       ;MS;FEIJAO                                  ;8380;5.7;10.1;1.8
 2024/25             ;3ª SAFRA       ;MS;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;MT;FEIJAO                                  ;8380;10.4;16.9;1.6
-2024/25             ;2ª SAFRA       ;MT;FEIJAO                                  ;8380;96.6;114.3;1.2
-2024/25             ;3ª SAFRA       ;MT;FEIJAO                                  ;8380;57.2;158.2;2.8
+2024/25             ;2ª SAFRA       ;MT;FEIJAO                                  ;8380;96.6;115;1.2
+2024/25             ;3ª SAFRA       ;MT;FEIJAO                                  ;8380;57.2;170.8;3
 2024/25             ;1ª SAFRA       ;PA;FEIJAO                                  ;8380;2.9;1.9;0.7
 2024/25             ;2ª SAFRA       ;PA;FEIJAO                                  ;8380;0;0;0
-2024/25             ;3ª SAFRA       ;PA;FEIJAO                                  ;8380;19.4;15;0.8
+2024/25             ;3ª SAFRA       ;PA;FEIJAO                                  ;8380;13.7;10.6;0.8
 2024/25             ;1ª SAFRA       ;PB;FEIJAO                                  ;8380;0;0;0
-2024/25             ;2ª SAFRA       ;PB;FEIJAO                                  ;8380;102.1;37.8;0.4
-2024/25             ;3ª SAFRA       ;PB;FEIJAO                                  ;8380;1.8;0.7;0.4
+2024/25             ;2ª SAFRA       ;PB;FEIJAO                                  ;8380;102.1;29.9;0.3
+2024/25             ;3ª SAFRA       ;PB;FEIJAO                                  ;8380;1.8;0.5;0.3
 2024/25             ;1ª SAFRA       ;PE;FEIJAO                                  ;8380;5;2.7;0.5
 2024/25             ;2ª SAFRA       ;PE;FEIJAO                                  ;8380;86;29.4;0.3
-2024/25             ;3ª SAFRA       ;PE;FEIJAO                                  ;8380;82.7;84;1
+2024/25             ;3ª SAFRA       ;PE;FEIJAO                                  ;8380;82.7;90.8;1.1
 2024/25             ;1ª SAFRA       ;PI;FEIJAO                                  ;8380;193.3;41;0.2
-2024/25             ;2ª SAFRA       ;PI;FEIJAO                                  ;8380;6.5;6.6;1
+2024/25             ;2ª SAFRA       ;PI;FEIJAO                                  ;8380;11.4;12.6;1.1
 2024/25             ;3ª SAFRA       ;PI;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;PR;FEIJAO                                  ;8380;163.3;333.6;2
-2024/25             ;2ª SAFRA       ;PR;FEIJAO                                  ;8380;328.2;528.8;1.6
+2024/25             ;2ª SAFRA       ;PR;FEIJAO                                  ;8380;327.9;526.6;1.6
 2024/25             ;3ª SAFRA       ;PR;FEIJAO                                  ;8380;0.5;0.5;1
 2024/25             ;1ª SAFRA       ;RJ;FEIJAO                                  ;8380;0.3;0.3;1
-2024/25             ;2ª SAFRA       ;RJ;FEIJAO                                  ;8380;0.6;1.1;1.8
+2024/25             ;2ª SAFRA       ;RJ;FEIJAO                                  ;8380;0.7;1.1;1.6
 2024/25             ;3ª SAFRA       ;RJ;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;RN;FEIJAO                                  ;8380;0;0;0
-2024/25             ;2ª SAFRA       ;RN;FEIJAO                                  ;8380;46.7;13.2;0.3
+2024/25             ;2ª SAFRA       ;RN;FEIJAO                                  ;8380;46.8;7.7;0.2
 2024/25             ;3ª SAFRA       ;RN;FEIJAO                                  ;8380;0;0;0
 2024/25             ;1ª SAFRA       ;RO;FEIJAO                                  ;8380;0;0;0
 2024/25             ;2ª SAFRA       ;RO;FEIJAO                                  ;8380;2;2.1;1
@@ -7291,8 +7291,8 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;2ª SAFRA       ;SP;FEIJAO                                  ;8380;17.3;28.5;1.6
 2024/25             ;3ª SAFRA       ;SP;FEIJAO                                  ;8380;15.5;39;2.5
 2024/25             ;1ª SAFRA       ;TO;FEIJAO                                  ;8380;7.5;6.5;0.9
-2024/25             ;2ª SAFRA       ;TO;FEIJAO                                  ;8380;69.8;79.9;1.1
-2024/25             ;3ª SAFRA       ;TO;FEIJAO                                  ;8380;0;0;0
+2024/25             ;2ª SAFRA       ;TO;FEIJAO                                  ;8380;69.8;86.1;1.2
+2024/25             ;3ª SAFRA       ;TO;FEIJAO                                  ;8380;0.3;0.9;3
 2018/19             ;UNICA          ;AC;GERGELIM                                ;7084;0;0;0
 2018/19             ;UNICA          ;AL;GERGELIM                                ;7084;0;0;0
 2018/19             ;UNICA          ;AM;GERGELIM                                ;7084;0;0;0
@@ -7463,12 +7463,12 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;CE;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;DF;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;ES;GERGELIM                                ;7084;0;0;0
-2024/25             ;UNICA          ;GO;GERGELIM                                ;7084;3;1.5;0.5
+2024/25             ;UNICA          ;GO;GERGELIM                                ;7084;4;2;0.5
 2024/25             ;UNICA          ;MA;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;MG;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;MS;GERGELIM                                ;7084;0;0;0
-2024/25             ;UNICA          ;MT;GERGELIM                                ;7084;398.7;276.3;0.7
-2024/25             ;UNICA          ;PA;GERGELIM                                ;7084;147.6;69.7;0.5
+2024/25             ;UNICA          ;MT;GERGELIM                                ;7084;401.2;288.9;0.7
+2024/25             ;UNICA          ;PA;GERGELIM                                ;7084;112.8;57.1;0.5
 2024/25             ;UNICA          ;PB;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;PE;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;PI;GERGELIM                                ;7084;0;0;0
@@ -7481,7 +7481,7 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;SC;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;SE;GERGELIM                                ;7084;0;0;0
 2024/25             ;UNICA          ;SP;GERGELIM                                ;7084;0;0;0
-2024/25             ;UNICA          ;TO;GERGELIM                                ;7084;90;49.2;0.5
+2024/25             ;UNICA          ;TO;GERGELIM                                ;7084;90;51.4;0.6
 1997/98             ;UNICA          ;GO;GIRASSOL                                ;4738;5;6;1.2
 1997/98             ;UNICA          ;MS;GIRASSOL                                ;4738;2;3;1.5
 1997/98             ;UNICA          ;MT;GIRASSOL                                ;4738;3;3;1
@@ -7791,10 +7791,10 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;CE;GIRASSOL                                ;4738;0;0;0
 2024/25             ;UNICA          ;DF;GIRASSOL                                ;4738;0.6;1.3;2.2
 2024/25             ;UNICA          ;ES;GIRASSOL                                ;4738;0;0;0
-2024/25             ;UNICA          ;GO;GIRASSOL                                ;4738;47;70.5;1.5
+2024/25             ;UNICA          ;GO;GIRASSOL                                ;4738;47;74.2;1.6
 2024/25             ;UNICA          ;MA;GIRASSOL                                ;4738;0;0;0
 2024/25             ;UNICA          ;MG;GIRASSOL                                ;4738;5.5;9.9;1.8
-2024/25             ;UNICA          ;MS;GIRASSOL                                ;4738;0.8;1.7;2.1
+2024/25             ;UNICA          ;MS;GIRASSOL                                ;4738;0.8;1.4;1.8
 2024/25             ;UNICA          ;MT;GIRASSOL                                ;4738;3.9;6.2;1.6
 2024/25             ;UNICA          ;PA;GIRASSOL                                ;4738;0;0;0
 2024/25             ;UNICA          ;PB;GIRASSOL                                ;4738;0;0;0
@@ -8293,7 +8293,7 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;AM;MAMONA EM BAGA                          ;4739;0;0;0
 2024/25             ;UNICA          ;AP;MAMONA EM BAGA                          ;4739;0;0;0
 2024/25             ;UNICA          ;BA;MAMONA EM BAGA                          ;4739;69.5;100;1.4
-2024/25             ;UNICA          ;CE;MAMONA EM BAGA                          ;4739;0.3;0.1;0.3
+2024/25             ;UNICA          ;CE;MAMONA EM BAGA                          ;4739;0.2;0;0
 2024/25             ;UNICA          ;DF;MAMONA EM BAGA                          ;4739;0;0;0
 2024/25             ;UNICA          ;ES;MAMONA EM BAGA                          ;4739;0;0;0
 2024/25             ;UNICA          ;GO;MAMONA EM BAGA                          ;4739;0;0;0
@@ -10166,71 +10166,71 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2023/24             ;2ª SAFRA       ;TO;MILHO                                   ;4742;334.9;1717.4;5.1
 2023/24             ;3ª SAFRA       ;TO;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;AC;MILHO                                   ;4742;29.7;88.3;3
-2024/25             ;2ª SAFRA       ;AC;MILHO                                   ;4742;11.3;48;4.2
+2024/25             ;2ª SAFRA       ;AC;MILHO                                   ;4742;11.3;51.4;4.5
 2024/25             ;3ª SAFRA       ;AC;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;AL;MILHO                                   ;4742;0;0;0
 2024/25             ;2ª SAFRA       ;AL;MILHO                                   ;4742;0;0;0
-2024/25             ;3ª SAFRA       ;AL;MILHO                                   ;4742;54.1;142.6;2.6
+2024/25             ;3ª SAFRA       ;AL;MILHO                                   ;4742;42.9;123.3;2.9
 2024/25             ;1ª SAFRA       ;AM;MILHO                                   ;4742;8.3;24.9;3
 2024/25             ;2ª SAFRA       ;AM;MILHO                                   ;4742;0;0;0
 2024/25             ;3ª SAFRA       ;AM;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;AP;MILHO                                   ;4742;0;0;0
 2024/25             ;2ª SAFRA       ;AP;MILHO                                   ;4742;0;0;0
 2024/25             ;3ª SAFRA       ;AP;MILHO                                   ;4742;2.3;2.2;1
-2024/25             ;1ª SAFRA       ;BA;MILHO                                   ;4742;351.7;1279.8;3.6
+2024/25             ;1ª SAFRA       ;BA;MILHO                                   ;4742;352.1;1281.3;3.6
 2024/25             ;2ª SAFRA       ;BA;MILHO                                   ;4742;50;195;3.9
-2024/25             ;3ª SAFRA       ;BA;MILHO                                   ;4742;344.6;1262.6;3.7
+2024/25             ;3ª SAFRA       ;BA;MILHO                                   ;4742;339.6;1244.3;3.7
 2024/25             ;1ª SAFRA       ;CE;MILHO                                   ;4742;0;0;0
-2024/25             ;2ª SAFRA       ;CE;MILHO                                   ;4742;590.5;432.8;0.7
+2024/25             ;2ª SAFRA       ;CE;MILHO                                   ;4742;588.6;318.4;0.5
 2024/25             ;3ª SAFRA       ;CE;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;DF;MILHO                                   ;4742;15.5;147;9.5
-2024/25             ;2ª SAFRA       ;DF;MILHO                                   ;4742;40.7;268.4;6.6
+2024/25             ;2ª SAFRA       ;DF;MILHO                                   ;4742;40.7;268.6;6.6
 2024/25             ;3ª SAFRA       ;DF;MILHO                                   ;4742;0;0;0
-2024/25             ;1ª SAFRA       ;ES;MILHO                                   ;4742;13.8;45.3;3.3
-2024/25             ;2ª SAFRA       ;ES;MILHO                                   ;4742;3;13.6;4.5
+2024/25             ;1ª SAFRA       ;ES;MILHO                                   ;4742;13.6;48.1;3.5
+2024/25             ;2ª SAFRA       ;ES;MILHO                                   ;4742;3;13.8;4.6
 2024/25             ;3ª SAFRA       ;ES;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;GO;MILHO                                   ;4742;149;1549.2;10.4
-2024/25             ;2ª SAFRA       ;GO;MILHO                                   ;4742;1659.3;11036;6.7
+2024/25             ;2ª SAFRA       ;GO;MILHO                                   ;4742;1820.1;12717;7
 2024/25             ;3ª SAFRA       ;GO;MILHO                                   ;4742;0;0;0
-2024/25             ;1ª SAFRA       ;MA;MILHO                                   ;4742;297.3;1522.8;5.1
-2024/25             ;2ª SAFRA       ;MA;MILHO                                   ;4742;279.5;1423.8;5.1
+2024/25             ;1ª SAFRA       ;MA;MILHO                                   ;4742;298.1;1528.7;5.1
+2024/25             ;2ª SAFRA       ;MA;MILHO                                   ;4742;299;1883.7;6.3
 2024/25             ;3ª SAFRA       ;MA;MILHO                                   ;4742;0;0;0
-2024/25             ;1ª SAFRA       ;MG;MILHO                                   ;4742;619;3841.5;6.2
-2024/25             ;2ª SAFRA       ;MG;MILHO                                   ;4742;463.3;2645.4;5.7
+2024/25             ;1ª SAFRA       ;MG;MILHO                                   ;4742;619;3847.7;6.2
+2024/25             ;2ª SAFRA       ;MG;MILHO                                   ;4742;464.7;2743.6;5.9
 2024/25             ;3ª SAFRA       ;MG;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;MS;MILHO                                   ;4742;10.2;115.4;11.3
-2024/25             ;2ª SAFRA       ;MS;MILHO                                   ;4742;2071.4;11682.7;5.6
+2024/25             ;2ª SAFRA       ;MS;MILHO                                   ;4742;2071.4;12380.8;6
 2024/25             ;3ª SAFRA       ;MS;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;MT;MILHO                                   ;4742;72.7;610.7;8.4
-2024/25             ;2ª SAFRA       ;MT;MILHO                                   ;4742;7130.9;51185.6;7.2
+2024/25             ;2ª SAFRA       ;MT;MILHO                                   ;4742;7214.7;54492.6;7.6
 2024/25             ;3ª SAFRA       ;MT;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;PA;MILHO                                   ;4742;222.9;804.7;3.6
-2024/25             ;2ª SAFRA       ;PA;MILHO                                   ;4742;289.3;1103.4;3.8
+2024/25             ;2ª SAFRA       ;PA;MILHO                                   ;4742;289.3;1349.9;4.7
 2024/25             ;3ª SAFRA       ;PA;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;PB;MILHO                                   ;4742;0;0;0
-2024/25             ;2ª SAFRA       ;PB;MILHO                                   ;4742;117.2;75.6;0.6
+2024/25             ;2ª SAFRA       ;PB;MILHO                                   ;4742;117.2;52.6;0.4
 2024/25             ;3ª SAFRA       ;PB;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;PE;MILHO                                   ;4742;0;0;0
 2024/25             ;2ª SAFRA       ;PE;MILHO                                   ;4742;130.4;103.5;0.8
 2024/25             ;3ª SAFRA       ;PE;MILHO                                   ;4742;65.8;122.2;1.9
 2024/25             ;1ª SAFRA       ;PI;MILHO                                   ;4742;365.1;1332.2;3.6
-2024/25             ;2ª SAFRA       ;PI;MILHO                                   ;4742;96.2;519.5;5.4
+2024/25             ;2ª SAFRA       ;PI;MILHO                                   ;4742;103.8;588.3;5.7
 2024/25             ;3ª SAFRA       ;PI;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;PR;MILHO                                   ;4742;270.8;2947.9;10.9
-2024/25             ;2ª SAFRA       ;PR;MILHO                                   ;4742;2768.8;16612.8;6
+2024/25             ;2ª SAFRA       ;PR;MILHO                                   ;4742;2788.9;17249.3;6.2
 2024/25             ;3ª SAFRA       ;PR;MILHO                                   ;4742;0;0;0
-2024/25             ;1ª SAFRA       ;RJ;MILHO                                   ;4742;1.6;7.3;4.6
+2024/25             ;1ª SAFRA       ;RJ;MILHO                                   ;4742;1.5;7;4.7
 2024/25             ;2ª SAFRA       ;RJ;MILHO                                   ;4742;0;0;0
 2024/25             ;3ª SAFRA       ;RJ;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;RN;MILHO                                   ;4742;0;0;0
-2024/25             ;2ª SAFRA       ;RN;MILHO                                   ;4742;63.6;27.4;0.4
+2024/25             ;2ª SAFRA       ;RN;MILHO                                   ;4742;64.2;20.6;0.3
 2024/25             ;3ª SAFRA       ;RN;MILHO                                   ;4742;0;0;0
-2024/25             ;1ª SAFRA       ;RO;MILHO                                   ;4742;16.1;56.9;3.5
+2024/25             ;1ª SAFRA       ;RO;MILHO                                   ;4742;16.1;57;3.5
 2024/25             ;2ª SAFRA       ;RO;MILHO                                   ;4742;477.2;2544.4;5.3
 2024/25             ;3ª SAFRA       ;RO;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;RR;MILHO                                   ;4742;0;0;0
 2024/25             ;2ª SAFRA       ;RR;MILHO                                   ;4742;0;0;0
-2024/25             ;3ª SAFRA       ;RR;MILHO                                   ;4742;9;54;6
+2024/25             ;3ª SAFRA       ;RR;MILHO                                   ;4742;16;96;6
 2024/25             ;1ª SAFRA       ;RS;MILHO                                   ;4742;715.5;5430.6;7.6
 2024/25             ;2ª SAFRA       ;RS;MILHO                                   ;4742;0;0;0
 2024/25             ;3ª SAFRA       ;RS;MILHO                                   ;4742;0;0;0
@@ -10239,12 +10239,12 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;3ª SAFRA       ;SC;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;SE;MILHO                                   ;4742;0;0;0
 2024/25             ;2ª SAFRA       ;SE;MILHO                                   ;4742;0;0;0
-2024/25             ;3ª SAFRA       ;SE;MILHO                                   ;4742;183.6;932.3;5.1
+2024/25             ;3ª SAFRA       ;SE;MILHO                                   ;4742;190.4;1139.5;6
 2024/25             ;1ª SAFRA       ;SP;MILHO                                   ;4742;265.7;1596.9;6
-2024/25             ;2ª SAFRA       ;SP;MILHO                                   ;4742;479.1;2491.3;5.2
+2024/25             ;2ª SAFRA       ;SP;MILHO                                   ;4742;479.1;2802.7;5.8
 2024/25             ;3ª SAFRA       ;SP;MILHO                                   ;4742;0;0;0
 2024/25             ;1ª SAFRA       ;TO;MILHO                                   ;4742;58.7;406.7;6.9
-2024/25             ;2ª SAFRA       ;TO;MILHO                                   ;4742;406.2;2128.9;5.2
+2024/25             ;2ª SAFRA       ;TO;MILHO                                   ;4742;414.3;2256.3;5.4
 2024/25             ;3ª SAFRA       ;TO;MILHO                                   ;4742;0;0;0
 1976/77             ;UNICA          ;GO;SOJA                                    ;4744;68;90;1.3
 1976/77             ;UNICA          ;MG;SOJA                                    ;4744;85;95;1.1
@@ -11001,32 +11001,32 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2023/24             ;UNICA          ;SP;SOJA                                    ;4744;1304.7;3653.2;2.8
 2023/24             ;UNICA          ;TO;SOJA                                    ;4744;1456.7;4575.5;3.1
 2024/25             ;UNICA          ;AC;SOJA                                    ;4744;18.6;64.3;3.5
-2024/25             ;UNICA          ;AL;SOJA                                    ;4744;6.9;21.2;3.1
+2024/25             ;UNICA          ;AL;SOJA                                    ;4744;4.9;15.1;3.1
 2024/25             ;UNICA          ;AM;SOJA                                    ;4744;13.5;45;3.3
 2024/25             ;UNICA          ;AP;SOJA                                    ;4744;10;26.2;2.6
-2024/25             ;UNICA          ;BA;SOJA                                    ;4744;2135.6;8713.2;4.1
-2024/25             ;UNICA          ;CE;SOJA                                    ;4744;4;15;3.8
-2024/25             ;UNICA          ;DF;SOJA                                    ;4744;88.4;329.3;3.7
+2024/25             ;UNICA          ;BA;SOJA                                    ;4744;2135.6;8845.7;4.1
+2024/25             ;UNICA          ;CE;SOJA                                    ;4744;4.2;15.4;3.7
+2024/25             ;UNICA          ;DF;SOJA                                    ;4744;88.4;339.2;3.8
 2024/25             ;UNICA          ;ES;SOJA                                    ;4744;0;0;0
-2024/25             ;UNICA          ;GO;SOJA                                    ;4744;4954.7;20423.3;4.1
-2024/25             ;UNICA          ;MA;SOJA                                    ;4744;1436.1;5013.4;3.5
-2024/25             ;UNICA          ;MG;SOJA                                    ;4744;2328.2;9142.8;3.9
-2024/25             ;UNICA          ;MS;SOJA                                    ;4744;4253.4;13525.8;3.2
-2024/25             ;UNICA          ;MT;SOJA                                    ;4744;12738.7;50585.4;4
-2024/25             ;UNICA          ;PA;SOJA                                    ;4744;1260.3;4500.5;3.6
+2024/25             ;UNICA          ;GO;SOJA                                    ;4744;4954.7;20725.5;4.2
+2024/25             ;UNICA          ;MA;SOJA                                    ;4744;1436.1;4858.3;3.4
+2024/25             ;UNICA          ;MG;SOJA                                    ;4744;2316.9;9186.5;4
+2024/25             ;UNICA          ;MS;SOJA                                    ;4744;4253.4;14202.1;3.3
+2024/25             ;UNICA          ;MT;SOJA                                    ;4744;12738.7;51311.5;4
+2024/25             ;UNICA          ;PA;SOJA                                    ;4744;1260.3;4496.8;3.6
 2024/25             ;UNICA          ;PB;SOJA                                    ;4744;0;0;0
 2024/25             ;UNICA          ;PE;SOJA                                    ;4744;0.8;2.4;3
-2024/25             ;UNICA          ;PI;SOJA                                    ;4744;1097.9;3796.5;3.5
-2024/25             ;UNICA          ;PR;SOJA                                    ;4744;5863.1;21476.5;3.7
+2024/25             ;UNICA          ;PI;SOJA                                    ;4744;1097.9;3777.9;3.4
+2024/25             ;UNICA          ;PR;SOJA                                    ;4744;5343.3;19978.6;3.7
 2024/25             ;UNICA          ;RJ;SOJA                                    ;4744;0;0;0
 2024/25             ;UNICA          ;RN;SOJA                                    ;4744;0;0;0
-2024/25             ;UNICA          ;RO;SOJA                                    ;4744;694;2635.8;3.8
-2024/25             ;UNICA          ;RR;SOJA                                    ;4744;118;370.2;3.1
-2024/25             ;UNICA          ;RS;SOJA                                    ;4744;6852.8;14281.2;2.1
-2024/25             ;UNICA          ;SC;SOJA                                    ;4744;819.8;3197.2;3.9
+2024/25             ;UNICA          ;RO;SOJA                                    ;4744;694.7;2639.2;3.8
+2024/25             ;UNICA          ;RR;SOJA                                    ;4744;140;462;3.3
+2024/25             ;UNICA          ;RS;SOJA                                    ;4744;7098.7;16625.2;2.3
+2024/25             ;UNICA          ;SC;SOJA                                    ;4744;819.8;3224.3;3.9
 2024/25             ;UNICA          ;SE;SOJA                                    ;4744;0;0;0
-2024/25             ;UNICA          ;SP;SOJA                                    ;4744;1355.6;5490.2;4
-2024/25             ;UNICA          ;TO;SOJA                                    ;4744;1564.5;5832.5;3.7
+2024/25             ;UNICA          ;SP;SOJA                                    ;4744;1355.6;5277.4;3.9
+2024/25             ;UNICA          ;TO;SOJA                                    ;4744;1564.5;5353.7;3.4
 1976/77             ;UNICA          ;CE;SORGO GRANIFERO                         ;4745;2;2;1
 1976/77             ;UNICA          ;ES;SORGO GRANIFERO                         ;4745;0;1;0
 1976/77             ;UNICA          ;GO;SORGO GRANIFERO                         ;4745;15;30;2
@@ -11701,29 +11701,29 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024/25             ;UNICA          ;AL;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;AM;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;AP;SORGO GRANIFERO                         ;4745;0;0;0
-2024/25             ;UNICA          ;BA;SORGO GRANIFERO                         ;4745;206;728;3.5
+2024/25             ;UNICA          ;BA;SORGO GRANIFERO                         ;4745;206;782;3.8
 2024/25             ;UNICA          ;CE;SORGO GRANIFERO                         ;4745;0;0;0
-2024/25             ;UNICA          ;DF;SORGO GRANIFERO                         ;4745;18.5;83.3;4.5
+2024/25             ;UNICA          ;DF;SORGO GRANIFERO                         ;4745;18.5;104.3;5.6
 2024/25             ;UNICA          ;ES;SORGO GRANIFERO                         ;4745;0;0;0
-2024/25             ;UNICA          ;GO;SORGO GRANIFERO                         ;4745;394.7;1530.3;3.9
-2024/25             ;UNICA          ;MA;SORGO GRANIFERO                         ;4745;26.6;65.6;2.5
-2024/25             ;UNICA          ;MG;SORGO GRANIFERO                         ;4745;372.3;1421.4;3.8
-2024/25             ;UNICA          ;MS;SORGO GRANIFERO                         ;4745;137.2;500.8;3.6
-2024/25             ;UNICA          ;MT;SORGO GRANIFERO                         ;4745;96;315.4;3.3
-2024/25             ;UNICA          ;PA;SORGO GRANIFERO                         ;4745;74;188.6;2.5
+2024/25             ;UNICA          ;GO;SORGO GRANIFERO                         ;4745;394.7;1581.2;4
+2024/25             ;UNICA          ;MA;SORGO GRANIFERO                         ;4745;50.6;124.7;2.5
+2024/25             ;UNICA          ;MG;SORGO GRANIFERO                         ;4745;372.3;1484.7;4
+2024/25             ;UNICA          ;MS;SORGO GRANIFERO                         ;4745;137.8;564.6;4.1
+2024/25             ;UNICA          ;MT;SORGO GRANIFERO                         ;4745;96;342.6;3.6
+2024/25             ;UNICA          ;PA;SORGO GRANIFERO                         ;4745;82.2;209.5;2.5
 2024/25             ;UNICA          ;PB;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;PE;SORGO GRANIFERO                         ;4745;0;0;0
-2024/25             ;UNICA          ;PI;SORGO GRANIFERO                         ;4745;75.5;226.5;3
+2024/25             ;UNICA          ;PI;SORGO GRANIFERO                         ;4745;80.9;315.5;3.9
 2024/25             ;UNICA          ;PR;SORGO GRANIFERO                         ;4745;0.4;1.1;2.8
 2024/25             ;UNICA          ;RJ;SORGO GRANIFERO                         ;4745;0;0;0
-2024/25             ;UNICA          ;RN;SORGO GRANIFERO                         ;4745;0.2;0.2;1
+2024/25             ;UNICA          ;RN;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;RO;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;RR;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;RS;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;SC;SORGO GRANIFERO                         ;4745;0;0;0
 2024/25             ;UNICA          ;SE;SORGO GRANIFERO                         ;4745;0;0;0
-2024/25             ;UNICA          ;SP;SORGO GRANIFERO                         ;4745;127;410;3.2
-2024/25             ;UNICA          ;TO;SORGO GRANIFERO                         ;4745;54.6;117;2.1
+2024/25             ;UNICA          ;SP;SORGO GRANIFERO                         ;4745;138;445.5;3.2
+2024/25             ;UNICA          ;TO;SORGO GRANIFERO                         ;4745;54.6;146.5;2.7
 1977                ;UNICA          ;MG;TRIGO                                   ;4747;1;0;0
 1977                ;UNICA          ;MS;TRIGO                                   ;4747;36;27;0.8
 1977                ;UNICA          ;PR;TRIGO                                   ;4747;1398;1257;0.9
@@ -12201,26 +12201,26 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024                ;UNICA          ;AL;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;AM;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;AP;TRIGO                                   ;4747;0;0;0
-2024                ;UNICA          ;BA;TRIGO                                   ;4747;5;28.5;5.7
+2024                ;UNICA          ;BA;TRIGO                                   ;4747;5;30;6
 2024                ;UNICA          ;CE;TRIGO                                   ;4747;0;0;0
-2024                ;UNICA          ;DF;TRIGO                                   ;4747;7.2;30;4.2
+2024                ;UNICA          ;DF;TRIGO                                   ;4747;7.4;29.6;4
 2024                ;UNICA          ;ES;TRIGO                                   ;4747;0;0;0
-2024                ;UNICA          ;GO;TRIGO                                   ;4747;85;255;3
+2024                ;UNICA          ;GO;TRIGO                                   ;4747;45;175;3.9
 2024                ;UNICA          ;MA;TRIGO                                   ;4747;0;0;0
-2024                ;UNICA          ;MG;TRIGO                                   ;4747;152.3;437.4;2.9
-2024                ;UNICA          ;MS;TRIGO                                   ;4747;36.7;81.4;2.2
+2024                ;UNICA          ;MG;TRIGO                                   ;4747;151.1;429.7;2.8
+2024                ;UNICA          ;MS;TRIGO                                   ;4747;36.2;84.5;2.3
 2024                ;UNICA          ;MT;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;PA;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;PB;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;PE;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;PI;TRIGO                                   ;4747;0;0;0
-2024                ;UNICA          ;PR;TRIGO                                   ;4747;833.9;2422.5;2.9
+2024                ;UNICA          ;PR;TRIGO                                   ;4747;823.6;2392.6;2.9
 2024                ;UNICA          ;RJ;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;RN;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;RO;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;RR;TRIGO                                   ;4747;0;0;0
-2024                ;UNICA          ;RS;TRIGO                                   ;4747;1202.4;3814;3.2
-2024                ;UNICA          ;SC;TRIGO                                   ;4747;115;390.9;3.4
+2024                ;UNICA          ;RS;TRIGO                                   ;4747;1155.6;3665.6;3.2
+2024                ;UNICA          ;SC;TRIGO                                   ;4747;110.1;374.2;3.4
 2024                ;UNICA          ;SE;TRIGO                                   ;4747;0;0;0
 2024                ;UNICA          ;SP;TRIGO                                   ;4747;115;354.9;3.1
 2024                ;UNICA          ;TO;TRIGO                                   ;4747;0;0;0
@@ -12442,7 +12442,7 @@ ano_agricola;dsc_safra_previsao;uf;produto;id_produto;area_plantada_mil_ha;produ
 2024                ;UNICA          ;PB;TRITICALE                               ;4753;0;0;0
 2024                ;UNICA          ;PE;TRITICALE                               ;4753;0;0;0
 2024                ;UNICA          ;PI;TRITICALE                               ;4753;0;0;0
-2024                ;UNICA          ;PR;TRITICALE                               ;4753;5.4;15.5;2.9
+2024                ;UNICA          ;PR;TRITICALE                               ;4753;5.6;16.1;2.9
 2024                ;UNICA          ;RJ;TRITICALE                               ;4753;0;0;0
 2024                ;UNICA          ;RN;TRITICALE                               ;4753;0;0;0
 2024                ;UNICA          ;RO;TRITICALE                               ;4753;0;0;0
